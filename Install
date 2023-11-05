@@ -1,0 +1,8 @@
+#!/bin/bash
+#First we are gonna install the only pakage EazyPacman depends on
+sudo pacman -Sy python-termcolor --noconfirm
+#Then we are gonna move the script to the correct folder
+sudo cp EzPacman /usr/local/bin/EzPacman
+clear
+#I just add an echo thing so it explains what to do now to the user
+echo Done, you can oppen the app now by typing EzPacman in your terminal

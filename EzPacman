@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+#This is a small script made By Karatasogmr
+#I dont know wy you would be reading this, but since you are, feel free to use, modify, eddit, etc... This is free and oppen source code
+#This script helps lazy people like me use pacman on a more smiple and user friendly way
+#
+#Import the dependences, as usual
+import os
+from termcolor import cprint, colored
+#Now I print the greeting, and the options, then we start the loop
+os.system("clear")
+cprint("Welcome to eazy pacman ", "cyan")
+cprint("By: Karatasogmr", "cyan")
+print("")
+#Here starts the loop, the options are printed inside the loop for em to re print when the user inputs some wrong option
+while True :
+    cprint("Please select one of the folowing options", "green")
+    cprint("(Write the first letter of the option, or press control+c to exit)", "yellow")
+    print("")
+    print("Update all packages")
+    print("Search for a pakage")
+    print("Install a pakage")
+    print("Remove a package")
+    print("Clear all cached packages")
+    print("")
+    ans = input(": ")
+    #Comment to make the code less chaotic XD.. now we start with the if, elif, else, and all that crap
+    if ans == "U" or ans == "u":
+        os.system("clear")
+        cprint("You need special permissions for that, please provide your sudo password", "yellow")
+        os.system("sudo pacman -Syu")
+        exit(0)
+    elif ans == "S" or ans == "s":
+        os.system("clear")
+        srh = "pacman -Ss " + input("Please enter the name to search : ")
+        os.system(srh)
+        cprint("Done, option menu will show again after you press enter", "yellow")
+        enter_wait = input("")
+    elif ans == "I" or ans == "i":
+        os.system("clear")
+        cprint("This action requires special permissions, you will be promted for your password after you enter the pakage name to install", "yellow")
+        inst = "sudo pacman -Sy " + input("Please enter the package name : ")
+        os.system(inst)
+        cprint("Done, option menu will show again after you press enter", "yellow")
+        enter_wait = input("")
+    elif ans == "R" or ans == "r":
+        os.system("clear")
+        cprint("This action requires special permissions, you will be promted for your password after you enter the pakage name to uninstall", "yellow")
+        rem = "sudo pacman -Rs " + input("Please enter the package name : ")
+        os.system(rem)
+        cprint("Done, option menu will show again after you press enter", "yellow")
+        enter_wait = input("")
+    elif ans == "C" or ans == "c":
+        os.system("clear")
+        cprint("This action requires special permissions, you will be promted for your password")
+        os.system("sudo pacman -Scc")
+        cprint("Done, option menu will show again after you press enter", "yellow")
+        enter_wait = input("")
+    else:
+        os.system("clear")
+        cprint("You didnt chose a valid option, please try again, press enter to continue", "yellow")
+        enter_wait = input("")
+        os.system("clear")
