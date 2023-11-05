@@ -10,6 +10,7 @@ from termcolor import cprint, colored
 os.system("clear")
 cprint("Welcome to eazy pacman ", "cyan")
 cprint("By: Karatasogmr", "cyan")
+cprint("V 1.1r", "red")
 print("")
 #Here starts the loop, the options are printed inside the loop for em to re print when the user inputs some wrong option
 while True :
