@@ -27,7 +27,7 @@ while True :
     if ans == "U" or ans == "u":
         os.system("clear")
         cprint("You need special permissions for that, please provide your sudo password", "yellow")
-        os.system("sudo pacman -Syu")
+        os.system("sudo pacman -Syu --noconfirm")
         exit(0)
     elif ans == "S" or ans == "s":
         os.system("clear")
