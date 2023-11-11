@@ -12,6 +12,7 @@ if [ -f /etc/debian_version ]; then
     clear
     sudo apt upgrade -y && sudo apt upgrade -y
     sudo apt install -y python3
+    sudo apt install python3-pip
     clear
     pip install termcolor
     sudo cp EzPacmanDebian /usr/local/bin/EzPacman
