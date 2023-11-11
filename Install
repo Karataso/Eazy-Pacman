@@ -15,8 +15,8 @@ if [ -f /etc/debian_version ]; then
     sudo cp EzPacmanDebian /usr/local/bin/EzPacman
     clear
     echo -e "${GREEN}Success: EazyPkg was installed succesfilly${NC}"
-    echo -e "${GREEN}Thank you so much for giving EzPkg a try <3 ${NC}"
-    echo -e "${RED}EzPkg v1.2B ${NC}"
+    echo -e "${GREEN}Thank you so much for giving EzPacman a try <3 ${NC}"
+    echo -e "${RED}EzPacman v1.2B ${NC}"
     
 elif [ -f /etc/arch-release ]; then
     clear
@@ -25,12 +25,12 @@ elif [ -f /etc/arch-release ]; then
     sudo cp EzPacmanArch /usr/local/bin/EzPacman
     clear
     echo -e "${GREEN}Success: EazyPkg was installed succesfilly${NC}"
-    echo -e "${GREEN}Thank you so much for giving EzPkg a try <3 ${NC}"
-    echo -e "${RED}EzPkg v1.2B ${NC}"
+    echo -e "${GREEN}Thank you so much for giving EzPacman a try <3 ${NC}"
+    echo -e "${RED}EzPacman v1.2B ${NC}"
     
 else
     echo -e "${RED}Error: Unknown Distro :( ${NC}"
     echo -e "${RED}This Script is made for Arch Linux and Devian Baded distros ${NC}"
-    echo -e "${GREEN}Thank you so much for giving EzPkg a try <3 ${NC}"
+    echo -e "${GREEN}Thank you so much for giving EzPacman a try <3 ${NC}"
     echo -e "${GREEN}Am absolutely sory for the inconbeniences${NC}"
 fi
