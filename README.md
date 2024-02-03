@@ -31,9 +31,9 @@ If you dont wanna use EazyPacman anymore, there is not
 an uninstall script.. yet 
 but you can remove it by running the folowing command
 ```bash
-  sudo rm -rf 
+  sudo rm -rf /usr/local/bin/EzPacman
 ```
-
+This sould remove the script from your system 
 
 ## Authors
 
