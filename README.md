@@ -44,4 +44,6 @@ This sould remove the script from your system
 
 Am not a pro programer, also the script is so simple that just by reading it you can understand how it works
 
-I did my best to explain the code with coments, if you are interested, go ahead and read the  "EzPacman" file
+I did my best to explain the code with coments, if you are interested, go ahead and read the  "EzPacmanArch" or "EzPacmanDebian" they are both kinda the same, but using pacman or apt depending on the distro
+
+the install script choses one or the other depending on your distro 
