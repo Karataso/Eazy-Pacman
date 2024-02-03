@@ -1,10 +1,12 @@
 
 # Eazy Pacman
 
-A Tiny little script to make Pacman basics eazy to use
+A Tiny little script to make Package manager basics eazy and more efficient to do
+allows you to do actions quickly pressing a single key to do actions
 
 made as simple as posible
 
+Works on Arch and derivates, and Debian and derivates
 
 ## Installation
 
