@@ -25,6 +25,16 @@ Once its done you can launch the script by running the folowing command
   EzPacman
 ```
 
+## Uninstall
+
+If you dont wanna use EazyPacman anymore, there is not
+an uninstall script.. yet 
+but you can remove it by running the folowing command
+```bash
+  sudo rm -rf 
+```
+
+
 ## Authors
 
 - [@Karataso](https://github.com/Karataso)
