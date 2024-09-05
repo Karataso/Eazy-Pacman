@@ -1,8 +1,8 @@
 
 # Eazy Pacman
 
-A Tiny little script to make Package manager basics eazy and more efficient to do
-allows you to do actions quickly pressing a single key to do actions
+A Tiny little script to make Package manager basics actions eazy and more efficient to do, 
+Eazy Pacman allows you to do actions quickly pressing a single key to do actions
 
 made as simple as posible
 
